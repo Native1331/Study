@@ -6,4 +6,7 @@ public void bark(){
     System.out.println("Im barking");
 
 }
+public void showName(){
+    System.out.println(name);
+}
 }

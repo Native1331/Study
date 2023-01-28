@@ -7,6 +7,7 @@ public class Lesson25 {
         dog.eat();
         dog.sleep();
         dog.bark();
+        dog.showName();
 
     }
 }
