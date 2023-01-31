@@ -5,6 +5,7 @@ public class Lesson33 {
     public static void main(String[] args) {
         /////////////////Java 5///////////
         List animals = new ArrayList();
+        Animal ourAnimal=new Animal();
         animals.add("cat");
         animals.add("dog");//1
         animals.add("frog");
@@ -26,7 +27,7 @@ public class Lesson33 {
         animals3.add("dog");//1
         animals3.add("frog");
         //animals3.add(ourAnimal);
-        String animal2=animals2.get(1);
+        String animal3=animals3.get(1);
 
 
 
