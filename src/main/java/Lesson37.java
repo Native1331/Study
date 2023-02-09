@@ -11,12 +11,17 @@ public class Lesson37 {
 
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
-        String [] numbers=line.split(" ");
+        String [] numbersString=line.split(" ");
         // Если точка String [] numbers=line.split("//. ");
-        System.out.println(Arrays.toString(numbers));
-        while (scanner.hasNextLine()) {
-            System.out.println(scanner.nextLine());
+        int[] numbers = new int[3];
+        int counter = 0;
+        for (String number: numbersString){
+            numbers [counter++] = Integer.parseInt(number);
         }
+        System.out.println(Arrays.toString(numbers));
+      /*  while (scanner.hasNextLine()) {
+            System.out.println(scanner.nextLine());
+        }*/
 
         scanner.close();
     }
