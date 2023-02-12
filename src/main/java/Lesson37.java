@@ -8,6 +8,7 @@ public class Lesson37 {
         String separator = File.separator;
         String path = separator+"Users"+ separator+ "Natalya.Kadysheva"+ separator + "Desktop" + separator + "новый";
         File file = new File(path);
+        //Если файл в проекте, тогда оставляем только File file = new File(имя файла);
 
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
