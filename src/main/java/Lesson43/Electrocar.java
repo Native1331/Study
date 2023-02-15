@@ -32,9 +32,10 @@ package Lesson43;
                 }
             }
             SomeClass someObject= new SomeClass();
+            test(someObject);
             System.out.println("Electrocar"+id+" is starting...");
         }
-        private void test(){
+        private void test(Object object){
 
         }
     }
